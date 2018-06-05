@@ -8,29 +8,21 @@ import android.support.v7.app.AppCompatActivity;
 
 public class VitaminHome extends AppCompatActivity {
 
-    int pict;
+//    int pict;
     String name;
-    String desc;
 
-    public VitaminHome(int pict, String name, String desc) {
-        this.pict = pict;
+    public VitaminHome(String name) {
+//        this.pict = pict;
         this.name = name;
-        this.desc = desc;
     }
 
-    public int getPict() {
-
-        return pict;
-    }
+//    public int getPict() {
+//
+//        return pict;
+//    }
 
     public String getName() {
 
         return name;
-    }
-
-    public String getDesc() {
-
-        return desc;
-
     }
 }

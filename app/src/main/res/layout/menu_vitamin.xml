@@ -9,36 +9,28 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="300dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:background="@drawable/shape_vit">
+
         <TextView
             android:id="@+id/name"
             android:layout_width="match_parent"
-            android:layout_height="35dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
             android:text="Vitamin"
             android:textStyle="bold"
-            android:textSize="24dp"
-            android:layout_marginLeft="130dp"/>
+            android:textSize="20dp"/>
+            <!--android:layout_marginLeft="50dp"/>-->
 
-        <ImageView
-            android:id="@+id/picture"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"/>
-
-        <TextView
-            android:id="@+id/desc"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="description"
-            android:layout_below="@+id/name"
-            android:layout_marginLeft="130dp"
-            android:textSize="10dp"/>
-
+        <!--<ImageView-->
+            <!--android:id="@+id/picture"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_marginBottom="5dp"/>-->
     </RelativeLayout>
 
 </LinearLayout>

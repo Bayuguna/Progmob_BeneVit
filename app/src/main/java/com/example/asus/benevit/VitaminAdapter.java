@@ -37,9 +37,8 @@ public class VitaminAdapter extends RecyclerView.Adapter<VitaminAdapter.ViewHold
     public void onBindViewHolder(VitaminAdapter.ViewHolder holder, int position) {
         VitaminHome list = listVitamin.get(position);
 
-        holder.pict.setImageResource(list.getPict());
+//        holder.pict.setImageResource(list.getPict());
         holder.name.setText(list.getName());
-        holder.desc.setText(list.getDesc());
 
     }
 
@@ -50,17 +49,15 @@ public class VitaminAdapter extends RecyclerView.Adapter<VitaminAdapter.ViewHold
 
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        public ImageView pict;
+//        public ImageView pict;
         public TextView name;
-        public TextView desc;
         public ViewHolder(View itemView) {
             super(itemView);
 
             context = itemView.getContext();
 
-            pict = (ImageView) itemView.findViewById(R.id.picture);
+//            pict = (ImageView) itemView.findViewById(R.id.picture);
             name = (TextView) itemView.findViewById(R.id.name);
-            desc = (TextView) itemView.findViewById(R.id.desc);
             vitamin_menu = (LinearLayout) itemView.findViewById(R.id.vitamin_menu);
         }
     }
